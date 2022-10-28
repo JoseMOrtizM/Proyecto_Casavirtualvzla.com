@@ -4,3 +4,5 @@ tienda virtual para venta de moneda virtual PEMON, con sistema para transaccione
 con sistema de logging, manejo de estadisticas de desempeño de vendedores, Consola de historial de visitas,
 Generador de Rendición de Cuentas,
 Consumo de API Rest sobre COVID-19
+
+NOTA: Fueron borradas las imagenes de productos y usuarios
