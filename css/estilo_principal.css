@@ -1,0 +1,104 @@
+/*ESTE ESTILO PERMITE QUE LAS IMAGENES SE SE ANIMEN ALO PASAR EL MOUSE*/
+.marco-ajustado {
+	width:100%;
+	height:auto;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.marco-ajustado.hidden {
+	overflow: hidden;
+}
+.imgFit {
+	width:100%;
+	max-height:auto;
+}
+.marco-ajustado .imgFit:hover {
+  -ms-animation-name: example1;
+  -ms-animation-duration: 1000ms;
+  -moz-animation-name: example1;
+  -moz-animation-duration: 1000ms;
+  -webkit-animation-name: example1;
+  -webkit-animation-duration: 1000ms;
+  -o-animation-name: example1;
+  -o-animation-duration: 1000ms;
+}
+@-ms-keyframes example1 {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.05);}
+	100% {transform: scale(1);}
+}
+@-webkit-keyframes example1 {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.05);}
+	100% {transform: scale(1);}
+}
+@-moz-keyframes example1 {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.05);}
+	100% {transform: scale(1);}
+}
+@-o-keyframes example1 {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.05);}
+	100% {transform: scale(1);}
+}
+/*ESTE ESTILO PERMITE QUE EL CARRUSEL SE ANIME DE FORMA CRECIENTE*/
+.marco-ajustado-carrusel {
+	margin:auto;
+	width: auto;
+}
+.marco-ajustado-carrusel.hidden {
+  overflow: hidden;
+}
+.marco-ajustado-carrusel .imgFit-carrusel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -ms-animation-name: example2;
+  -ms-animation-duration: 9000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-direction: alternate;
+  -moz-animation-name: example2;
+  -moz-animation-duration: 9000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-name: example2;
+  -webkit-animation-duration: 9000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -o-animation-name: example2;
+  -o-animation-duration: 9000ms;
+  -o-animation-iteration-count: infinite;
+  -o-animation-direction: alternate;
+}
+@-ms-keyframes example2 {
+	0% {transform: scale(1);}
+	100% {transform: scale(1.03);}
+}
+@-webkit-keyframes example2 {
+	0% {transform: scale(1);}
+	100% {transform: scale(1.03);}
+}
+@-moz-keyframes example2 {
+	0% {transform: scale(1);}
+	100% {transform: scale(1.03);}
+}
+@-o-keyframes example2 {
+	0% {transform: scale(1);}
+	100% {transform: scale(1.03);}
+}
+body{
+	background-image: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+img:before {
+    content: ' ';
+}
+
